@@ -1,0 +1,4 @@
+step 1: install windows git bash
+step 2: "git clone" sortphotos github
+step 3: cd into the sortphotos directory, and run "setup.py build" & "setup.py install" in git CMD
+step 4: make modfications on the original sortphotos.py:
