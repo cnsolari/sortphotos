@@ -4,3 +4,5 @@ step 3: cd into the sortphotos directory, and run "setup.py build" & "setup.py i
 step 4: make modfications on line 377 of the original sortphotos.py:
  # setup destination file
         dest_file = os.path.join(dest_file, filename.encode('utf-8')) --> dest_file = os.path.join(dest_file, filename)
+step 5: running the scripts on git bash
+python sortphotos.py D:/Old_SD/New D:/Old_SD/New/sorted --sort %Y/%b-%d --day-begins 4 -r
